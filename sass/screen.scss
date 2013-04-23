@@ -1,0 +1,150 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+/* imports */
+
+@import "normalize";
+@import "compass/css3/font-face";
+
+/* includes */
+
+@include normalize;
+
+@include font-face("mission-scriptregular", font-files("mission-script-webfont.ttf", "mission-script-webfont.woff", "mission-script-webfont.svg", "mission-script-webfont.eot"));
+
+@include font-face("OpenSansCondensedLight", font-files("OpenSans-CondLight-webfont.ttf", "OpenSans-CondLight-webfont.woff", "OpenSans-CondLight-webfont.svg", "OpenSans-CondLight-webfont.eot"));
+
+@include font-face("OpenSansCondensedBold", font-files("OpenSans-CondBold-webfont.ttf", "OpenSans-CondBold-webfont.woff", "OpenSans-CondBold-webfont.svg", "OpenSans-CondBold-webfont.eot"));
+
+@include font-face("wisdom_script_airegular", font-files("wisdom_script-webfont.ttf", "wisdom_script-webfont.woff", "wisdom_script-webfont.svg", "wisdom_script-webfont.eot"));
+
+@include font-face("CubanoRegular", font-files("cubano-regular-webfont.ttf", "cubano-regular-webfont.woff", "wcubano-regular-webfont.svg", "cubano-regular-webfont.eot"));
+
+$bg: #1A1E23;
+$text: #FF6B6B;
+
+/* Structure */
+	
+body {
+	font-size: 100%;
+	line-height: 1.6875;
+	background-color: $bg;
+	color: $text;
+}
+	
+.wrap {
+	width:70%;
+	margin:0 auto;
+}
+	
+	
+/* Typography */
+
+a {
+	color: $text;
+	background: $bg;
+	text-decoration: none;
+	padding: 8px 8px 0 8px;
+	border-radius: 4px;
+	border: 2px solid $text;
+}
+
+a.addy {
+	padding: 8px 8px 0px 4px;
+}
+
+a:hover {
+	color: $bg;
+	background: $text;
+	padding: 8px 8px 0 8px;
+	border-radius: 4px;
+	border: 2px solid $text;
+}
+	
+a.addy:hover {
+	padding: 8px 8px 0 4px;
+}	
+	
+h1 {
+	font-family: 'CubanoRegular';
+	font-size: 2.61em;
+	line-height:1.2em;
+	margin: 1em 0;
+}	
+
+p, span {
+	font-size: 2em;	
+	font-family: "OpenSansCondensedLight";
+	margin: 1.68em 0;
+}
+
+span {
+	margin: 0;
+}
+
+.rsvp {
+	border-top: 2px solid $text;
+	text-align: center;
+	color: $text;
+	padding: 3em 0;
+}
+
+#typeform {
+	font-size: 2em;	
+	font-family: "OpenSansCondensedLight";
+	padding: 20px 10px 10px 10px;
+	margin: 0 auto;
+	border-radius: 4px;
+	text-align: center;
+	display: inline-block;
+	float: none;
+	color: $text;
+	background: $bg;
+	text-align: center;
+	border: 2px solid $text;
+}
+
+#typeform:hover {
+	background: $text;
+	color: $bg; 
+}
+
+#typeform:active {
+
+}
+
+.section_exit,
+.section_signature {
+	color: $text;
+	position: relative;
+	display: block;	
+}
+
+.section_exit {
+	font-family: "OpenSansCondensedLight"; 
+	margin: .5em 0 0;
+}
+
+.section_signature {
+	padding: 0 0 1em;
+	font-family: "wisdom_script_airegular";
+}
+
+/* Media queries */
+	
+@media only screen and (min-width: 1100px) {
+	body { font-size: 120%; }
+	.wrap { max-width: 770px; }
+}  
+       
+@media only screen and (max-width: 800px) {
+	body { font-size: 100%; }
+}   
+
+@media only screen and (max-width: 400px) {	
+	body { font-size: 90%; }
+	h1 { font-size: 3em; }
+	.wrap { width: 90%; }
+}
