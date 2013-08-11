@@ -4,6 +4,10 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* imports */
 /* includes */
+* { 
+	box-sizing: border-box 
+}
+
 article,
 aside,
 details,
