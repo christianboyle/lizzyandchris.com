@@ -327,6 +327,10 @@ span {
   font-family: "wisdom_script_airegular";
 }
 
+iframe {
+	width: 100%;
+}
+
 .vine ul {
 	padding: 0;
 }
