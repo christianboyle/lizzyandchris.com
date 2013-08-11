@@ -34,6 +34,7 @@ textarea {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 a:focus {
@@ -92,6 +93,7 @@ body {
 .wrap {
   width: 70%;
   margin: 0 auto;
+  padding: 1em;
 }
 
 /* Typography */
