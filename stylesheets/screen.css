@@ -327,6 +327,20 @@ span {
   font-family: "wisdom_script_airegular";
 }
 
+.vine ul {
+	padding: 0;
+}
+
+.vine ul li {
+	list-style: none;
+	padding: 0 0 20px;
+	border-bottom: 1px dotted #ff6b6b;
+}
+
+.vine ul li:last-child {
+	border: none;
+}
+
 /* Media queries */
 @media only screen and (min-width: 1100px) {
   body {
