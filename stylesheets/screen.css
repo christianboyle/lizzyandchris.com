@@ -328,7 +328,7 @@ span {
 }
 
 iframe {
-	width: 100%;
+	max-width: 100%;
 }
 
 .vine ul {
