@@ -4,7 +4,6 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* imports */
 /* includes */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_html5\.scss}line{font-family:\000033}}
 article,
 aside,
 details,
@@ -19,32 +18,27 @@ summary {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_html5\.scss}line{font-family:\0000318}}
 audio,
 canvas,
 video {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_html5\.scss}line{font-family:\0000326}}
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_html5\.scss}line{font-family:\0000332}}
 [hidden] {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_base\.scss}line{font-family:\000032}}
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_base\.scss}line{font-family:\0000312}}
 html,
 button,
 input,
@@ -53,48 +47,39 @@ textarea {
   font-family: sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_base\.scss}line{font-family:\0000321}}
 body {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_links\.scss}line{font-family:\000034}}
 a:focus {
   outline: thin dotted;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_links\.scss}line{font-family:\000039}}
 a:hover, a:active {
   outline: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_typography\.scss}line{font-family:\000033}}
 h1 {
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_typography\.scss}line{font-family:\000038}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_typography\.scss}line{font-family:\0000313}}
 b,
 strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_typography\.scss}line{font-family:\0000319}}
 dfn {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_typography\.scss}line{font-family:\0000324}}
 mark {
   background: #ff0;
   color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_typography\.scss}line{font-family:\0000330}}
 code,
 kbd,
 pre,
@@ -103,24 +88,20 @@ samp {
   font-size: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_typography\.scss}line{font-family:\0000339}}
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_typography\.scss}line{font-family:\0000346}}
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_typography\.scss}line{font-family:\0000351}}
 small {
   font-size: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_typography\.scss}line{font-family:\0000357}}
 sub,
 sup {
   font-size: 75%;
@@ -129,45 +110,37 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_typography\.scss}line{font-family:\0000365}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_typography\.scss}line{font-family:\0000369}}
 sub {
   bottom: -0.25em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_embedded\.scss}line{font-family:\000032}}
 img {
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_embedded\.scss}line{font-family:\000038}}
 svg:not(:root) {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_figures\.scss}line{font-family:\000033}}
 figure {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_forms\.scss}line{font-family:\000033}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_forms\.scss}line{font-family:\000039}}
 legend {
   border: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_forms\.scss}line{font-family:\0000316}}
 button,
 input,
 select,
@@ -177,13 +150,11 @@ textarea {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_forms\.scss}line{font-family:\0000330}}
 button,
 input {
   line-height: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_forms\.scss}line{font-family:\0000341}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -192,20 +163,17 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_forms\.scss}line{font-family:\0000352}}
 button[disabled],
 input[disabled] {
   cursor: default;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_forms\.scss}line{font-family:\0000357}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_forms\.scss}line{font-family:\0000366}}
 input[type="search"] {
   -webkit-appearance: textfield;
   -webkit-box-sizing: content-box;
@@ -213,26 +181,22 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_forms\.scss}line{font-family:\0000377}}
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_forms\.scss}line{font-family:\0000383}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_forms\.scss}line{font-family:\0000389}}
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chrisboyle\/\.rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-normalize-plugin-0\.4\.0\/scss\/normalize\/_tables\.scss}line{font-family:\000033}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -264,7 +228,6 @@ table {
 }
 
 /* Structure */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\0000330}}
 body {
   font-size: 100%;
   line-height: 1.6875;
@@ -272,14 +235,12 @@ body {
   color: #ff6b6b;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\0000337}}
 .wrap {
   width: 70%;
   margin: 0 auto;
 }
 
 /* Typography */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\0000345}}
 a {
   color: #ff6b6b;
   background: #1a1e23;
@@ -289,12 +250,10 @@ a {
   border: 2px solid #ff6b6b;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\0000354}}
 a.addy {
   padding: 8px 8px 0px 4px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\0000358}}
 a:hover {
   color: #1a1e23;
   background: #ff6b6b;
@@ -303,12 +262,10 @@ a:hover {
   border: 2px solid #ff6b6b;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\0000366}}
 a.addy:hover {
   padding: 8px 8px 0 4px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\0000370}}
 h1 {
   font-family: 'CubanoRegular';
   font-size: 2.61em;
@@ -316,19 +273,16 @@ h1 {
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\0000377}}
 p, span {
   font-size: 2em;
   font-family: "OpenSansCondensedLight";
   margin: 1.68em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\0000383}}
 span {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\0000387}}
 .rsvp {
   border-top: 2px solid #ff6b6b;
   text-align: center;
@@ -336,7 +290,6 @@ span {
   padding: 3em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\0000394}}
 #typeform {
   font-size: 2em;
   font-family: "OpenSansCondensedLight";
@@ -352,13 +305,11 @@ span {
   border: 2px solid #ff6b6b;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\00003109}}
 #typeform:hover {
   background: #ff6b6b;
   color: #1a1e23;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\00003118}}
 .section_exit,
 .section_signature {
   color: #ff6b6b;
@@ -366,13 +317,11 @@ span {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\00003125}}
 .section_exit {
   font-family: "OpenSansCondensedLight";
   margin: .5em 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\00003130}}
 .section_signature {
   padding: 0 0 1em;
   font-family: "wisdom_script_airegular";
@@ -380,34 +329,32 @@ span {
 
 /* Media queries */
 @media only screen and (min-width: 1100px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\00003138}}
   body {
     font-size: 120%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\00003139}}
   .wrap {
     max-width: 770px;
   }
+
+  .wrap.vine {
+	max-width: 600px;
+  }
 }
 @media only screen and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\00003143}}
   body {
     font-size: 100%;
   }
 }
 @media only screen and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\00003147}}
   body {
     font-size: 90%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\00003148}}
   h1 {
     font-size: 3em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/wedding-site-v5\/sass\/screen\.scss}line{font-family:\00003149}}
   .wrap {
     width: 90%;
   }
